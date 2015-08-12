@@ -1,0 +1,180 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+body {
+    padding: 30px 0px 60px;
+}
+.panel > .list-group .list-group-item:first-child {
+    /*border-top: 1px solid rgb(204, 204, 204);*/
+}
+@media (max-width: 767px) {
+    .visible-xs {
+        display: inline-block !important;
+    }
+    .block {
+        display: block !important;
+        width: 100%;
+        height: 1px !important;
+    }
+    nav div img {
+        margin-left: 20px;
+    }
+}
+#back-to-bootsnipp {
+    position: fixed;
+    top: 10px; right: 10px;
+}
+
+
+.c-search > .form-control {
+    border-radius: 0px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    font-size: 1.3em;
+    padding: 12px 12px;
+    height: 44px;
+    outline: none !important;
+}
+.c-search > .form-control:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none;
+}
+.c-search > .input-group-btn .btn {
+    border-radius: 0px;
+    border-width: 0px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    height: 44px;
+}
+
+
+.c-list {
+    padding: 0px;
+    min-height: 44px;
+}
+.title {
+    display: inline-block;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+ul.c-controls {
+    list-style: none;
+    margin: 0px;
+    min-height: 44px;
+}
+
+ul.c-controls li {
+    margin-top: 8px;
+    float: left;
+}
+
+ul.c-controls li a {
+    font-size: 1.7em;
+    padding: 11px 10px 6px;   
+}
+ul.c-controls li a i {
+    min-width: 24px;
+    text-align: center;
+}
+
+ul.c-controls li a:hover {
+    background-color: rgba(51, 51, 51, 0.2);
+}
+
+.c-toggle {
+    font-size: 1.7em;
+}
+
+.name {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.c-info {
+    padding: 5px 10px;
+    font-size: 1.25em;
+}
+@media screen and (max-width: 338px) {
+    .myresponsive_panel_heading {}
+}
+@media screen and (max-width: 500px) {
+    .myresponsive_img {
+        max-width: 20%;
+    }
+    .myresponsive_div {
+        padding-left: 0px;
+    }
+    .myresponsive_actions {
+        margin-left: 160px;
+        margin-top: -10px
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 767px) {
+    .myresponsive_img {
+        max-width: 20%;
+    }
+    .myresponsive_div {
+        padding-left: 120px;
+    }
+    .myresponsive_actions {
+        margin-left: 220px;
+        margin-bottom: -20px
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px)  {
+    .myresponsive_img {
+        max-width: 100%;
+    }
+    .myresponsive_div {
+        padding-left: 0px;
+    }
+    .myresponsive_actions {
+        margin-left: 150px;
+        margin-bottom: -10px
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px)  {
+    .myresponsive_img {
+        max-width: 100%;
+    }
+    .myresponsive_div {
+        padding-left: 0px;
+    }
+    .myresponsive_actions {
+        margin-left: 200px;
+        margin-bottom: -20px
+    }
+}
+@media screen and (min-width: 1200px) {
+    .myresponsive_img {
+        max-width: 100%;
+    }
+    .myresponsive_div {
+        padding-left: 0px;
+    }
+    .myresponsive_actions {
+        margin-left: 300px;
+        margin-bottom: -20px
+    }
+}
+#field {
+    margin-bottom:215px;
+}
+label.error {
+    width: auto;
+    display: table-caption;
+    color: red;
+    font-size: 12px;
+    font-weight: 100;
+}
+.dinamic-buttons {
+    text-align: right;
+}
+.dinamic-add-button {
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.dinamic-remove-button {
+    margin-top: -5px;
+}
